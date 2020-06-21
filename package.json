@@ -1,0 +1,30 @@
+{
+  "name": "nti-discord",
+  "version": "1.0.0",
+  "description": "Not-TI's Discord bot",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmlatghor/nti-discord.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "bot",
+    "not-ti",
+    "nti"
+  ],
+  "author": "fm'latghor",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/fmlatghor/nti-discord/issues"
+  },
+  "homepage": "https://github.com/fmlatghor/nti-discord#readme"
+}
