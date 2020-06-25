@@ -1,2 +1,2 @@
 # nti-discord
-The Not TI (NTI) Discord bot
+The Not TI (NTI) Discord bot.
