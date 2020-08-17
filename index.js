@@ -128,3 +128,14 @@ client.on('message', msg => {
 		msg.channel.send(embed);
 	}
 });
+
+client.on('message', msg => {
+	if (msg.content === '$info') {
+		const embed = new MessageEmbed()
+		.setColor('0x0099ff')
+		.setTitle('More Info')
+		.setDescription('For more resources, check [NTI (Not TI) Resources](https://not-ti.com/resources.html')
+		.setFooter('Unofficial Texas Instruments is in no way affiliated with Texas Instruments™', 'https://cdn.discordapp.com/icons/469574896754884630/acc126328db7eaca2d73b103188b86da.png?size=128');
+	msg.channel.send(embed);
+	}
+});
